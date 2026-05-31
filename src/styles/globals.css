@@ -1,0 +1,11 @@
+/* Fix root height to allow content to expand beyond viewport */
+#fig-code-root {
+  height: auto !important;
+  min-height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
